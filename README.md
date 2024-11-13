@@ -139,6 +139,14 @@ sudo journalctl -u eugene.service -f
 
 ![OK Eugene](./img/eugene3.png)
 
+## Usage
+
+In your server, use the command `!eugene` followed by whatever you want to say to him.
+
+![Good one Eugene](./img/eugene4.png)
+
+You can also use `!ping` to test if the service is running without querying `ollama`.
+
 ## License
 
 See [LICENSE.md](./LICENSE.md).
