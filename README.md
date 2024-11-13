@@ -141,4 +141,4 @@ sudo journalctl -u eugene.service -f
 
 ## License
 
-See [LICENSE.md]{(./LICENSE.md).
+See [LICENSE.md](./LICENSE.md).
