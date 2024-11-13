@@ -1,0 +1,15 @@
+[Unit]
+Description=Eugene Bot Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/demo/eugene_bot_env/bin/python /usr/local/bin/eugene/eugene.py
+WorkingDirectory=/usr/local/bin/eugene
+Restart=always
+User=demo
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
